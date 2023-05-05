@@ -1,0 +1,15 @@
+- name: installing multiple packages
+   hosts: all
+   tasks: 
+    - name: install httpd packages
+	  yum: name=httpd state=present
+	  tags: httpd
+	- name: install vsftpd packages
+	  yum: name=vsftpd state=present
+	  tags: vsftpd
+	- name: install ftp packages
+	  yum: name=ftp state=present
+	  tags: ftp
+	- name: install samba packages
+	  yum: name=samba state=present
+	  tags: samba
