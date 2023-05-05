@@ -1,0 +1,8 @@
+---
+ - name: display the line
+   hosts: all
+   tasks: 
+    - debug: mes="welcome to my new playbook"
+	           or
+	- name : print the below message
+      debug: mes="welcome to my new playbook"
