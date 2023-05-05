@@ -1,0 +1,16 @@
+---
+ - name: starting multiple services
+   hosts: all
+   tasks: 
+    - name: start httpd service
+	  service: name=httpd state=started enabled=yes
+	  tags: httpd
+	- name: start vsftpd service
+	  service: name=vsftpd state=started enabled=yes
+	  tags: vsftpd
+	- name: start ftp service
+	  service: name=ftp state=started enabled=yes
+	  tags: ftp
+	- name: start samba service
+	  service: name=samba state=started enabled=yes
+	  tags: samba
