@@ -1,0 +1,6 @@
+---
+ - name: ile creation
+   hosts: all
+   tasks:
+    - file: dest=/tmp/git state=directory[D[D[D[D[D[D[D[D[D[D[D[D[C[D[D[D[D[D[D[C[Cithub state=directory
+    - c[A[A[A[C[A[[Ccopy file[B[[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C copy: src=/etc/fstab dest=/tmp/fstab_backup

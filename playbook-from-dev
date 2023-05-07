@@ -1,0 +1,5 @@
+---
+ - name:file creation
+   hosts: all[A[D[D[D[D[D [B[C[C[C[C[C
+   tasks: 
+    - file: dest=/tmp/git state=touch 
